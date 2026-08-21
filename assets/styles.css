@@ -51,28 +51,14 @@ header {
   letter-spacing: -0.02em;
 }
 
-.mark {
-  display: grid;
-  grid-template-columns: repeat(3, 7px);
-  align-items: center;
-  gap: 4px;
+.app-icon {
+  display: block;
   width: 36px;
   height: 36px;
-  padding: 7px;
   border-radius: 11px;
-  background: #241f3f;
   box-shadow: 0 7px 20px rgba(36, 31, 63, 0.2);
+  object-fit: cover;
 }
-
-.mark i {
-  display: block;
-  width: 7px;
-  border-radius: 999px;
-}
-
-.mark i:nth-child(1) { height: 14px; background: #62d2c4; transform: translateY(3px); }
-.mark i:nth-child(2) { height: 22px; background: #7766f5; transform: translateY(-2px); }
-.mark i:nth-child(3) { height: 17px; background: #f2a357; transform: translateY(2px); }
 
 nav { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 
